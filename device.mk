@@ -34,3 +34,4 @@ PRODUCT_COPY_FILES += \
 # Fingerprint Gestures
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
+$(call inherit-product, vendor/lindroid/lindroid.mk)
